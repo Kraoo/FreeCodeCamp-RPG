@@ -1,0 +1,71 @@
+body {
+    background-color: #0a0a23;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#stats,
+#controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stat {
+    font-size: 18px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #feac32;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffcc4c;
+}
+
+#monsterStats {
+    display: none;
+    padding: 10px;
+    background-color: #c70d0d;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#text {
+    padding: 20px;
+    background-color: #0a0a23;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#monsterName {
+    font-weight: bold;
+}
+
+#monsterHealth {
+    font-weight: bold;
+}
